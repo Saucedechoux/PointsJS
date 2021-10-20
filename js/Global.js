@@ -82,7 +82,8 @@ class Global {
 		})
 
 		this.restart.addEventListener("click", () => {
-			document.location = "/choix.html"
+			console.log(document.location);
+			document.location = "./choix.html"
 		})
 
 		this.move.addEventListener("click", () => {
